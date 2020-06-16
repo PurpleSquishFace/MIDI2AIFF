@@ -23,7 +23,7 @@ where _file-path_ is the file path to your folder. If there are any spaces in th
 
  The line consists of the program name, followed by the text file you are using, then the name for the audio file being generated. The numbers will be explained later in the manual.
 
-### The Features
+## The Features
 
 The features allow you to be flexible with the output of your audio file. Some are controlled in the command, and some are controlled in the text file. The next few sections will explain each feature and how to use them.
 

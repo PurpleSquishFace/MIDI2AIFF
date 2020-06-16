@@ -1,4 +1,4 @@
-# User Manual
+## User Manual
 
 Thank you for using this program. In short, this program will take a user-specified text file which contains the MIDI figures for a series of notes, and convert the information and generate an audio file of the notes. This manual will walk you through how to use the program, explain all the features and answer any queries you may have.
 
@@ -23,11 +23,11 @@ where _file-path_ is the file path to your folder. If there are any spaces in th
 
  The line consists of the program name, followed by the text file you are using, then the name for the audio file being generated. The numbers will be explained later in the manual.
 
-## The Features
+### The Features
 
 The features allow you to be flexible with the output of your audio file. Some are controlled in the command, and some are controlled in the text file. The next few sections will explain each feature and how to use them.
 
-### Sampling Rate
+## Sampling Rate
 
 The first feature is the sampling rate of the output file. The figure you specify will be the number of samples per second; measured in hertz (Hz).
 
@@ -35,9 +35,7 @@ The value may be whatever you wish, however, just be aware of the issues than ca
 
 To apply the sampling rate, simply change the first numerical value when typing the command to run the program to your chosen sample rate.
 
-###
-
-### Changing the Tempo
+## Changing the Tempo
 
 The next feature is the tempo of the audio file you create. This is controlled by a multiplication factor to apply an increase or decrease to the speed of the audio. The value 1 will keep the length of each note the same length as defined by in the input text file.
  A value greater than 1 will decrease the tempo, making each note longer than as defined in the input text file. E.g., the value 1.5 will mean each note is output 1.5 times longer than defined; so a two second note will become three seconds.
@@ -47,7 +45,7 @@ The next feature is the tempo of the audio file you create. This is controlled b
 
 To apply the tempo, simply change the second numerical value when typing the command to run the program to your chosen tempo factor.
 
-### Transposing
+## Transposing
 
 The third feature is the transposing tool. You can change the pitch of the audio up or down from that defined by the input text file, by expressing how many semitones you wish to change it by.
 
@@ -55,9 +53,7 @@ A positive value will increase the pitch by the number of semitones entered. Con
 
 To apply the tempo, simply change the third numerical value when typing the command to run the program to your chosen transposition factor.
 
-### Attack and Decay
-
-##
+## Attack and Decay
 
 An attack and decay envelope can be applied to each note; this is controlled in the input text file.
 
@@ -65,12 +61,6 @@ The fourth and fifth columns in the input text file relate to the attack and the
  In the example below, the attack will last 0.1 seconds, and the decay will last 0.2 seconds; both with a warp factor of 0.5.
 
 The warp factor denotes the shape of the attack or decay.
-
-##
-
-Figure 5
-
-##
 
 ## Formatting the Text File
 

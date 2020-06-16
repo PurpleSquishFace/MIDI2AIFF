@@ -17,7 +17,7 @@ where _file-path_ is the file path to your folder. If there are any spaces in th
 
 - Then run the program. For now we have provided an example input file and suggested values for you to get started quickly. Type:
 
-./13011362 BaaBaa.txt OutputFile.aiff 44100 1 0
+./MIDI2AIFF BaaBaa.txt OutputFile.aiff 44100 1 0
 
  Then press enter, and you&#39;ll have a sound file called _OutputFile.aiff_.
 

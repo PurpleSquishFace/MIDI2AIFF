@@ -11,13 +11,17 @@ The program is run from the command line; here&#39;s a step by step guide to use
 - First, you will need to open the terminal.
 - Next, you will need the full file-path to the folder. Then type:
 
+```C
 cd _file-path_
+```
 
 where _file-path_ is the file path to your folder. If there are any spaces in the path, then enclose it with a pair of single quote marks (e.g. &#39;_file-path&#39;_). Then press enter.
 
 - Then run the program. For now we have provided an example input file and suggested values for you to get started quickly. Type:
 
+```C
 ./MIDI2AIFF BaaBaa.txt OutputFile.aiff 44100 1 0
+```
 
  Then press enter, and you&#39;ll have a sound file called _OutputFile.aiff_.
 
